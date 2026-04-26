@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  background: #0f172a;
+  color: white;
+  font-family: Arial;
+}
+
+.box {
+  width: 320px;
+  margin: 100px auto;
+  padding: 30px;
+  background: #1e293b;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  background: #6366f1;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #020617;
+}
+
+.page {
+  padding: 30px;
+}
+
+.card {
+  background: #1e293b;
+  margin: 10px 0;
+  padding: 10px;
+}
+.builder {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.left,
+.right {
+  flex: 1;
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.draggable {
+  background: #334155;
+  padding: 15px;
+  margin: 10px 0;
+  cursor: grab;
+}
+.dashboard {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  flex: 1;
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+}
+.portfolio {
+  text-align: center;
+  padding: 50px;
+}
+
+.portfolio img {
+  border-radius: 50%;
+}
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #020617, #1e293b);
+}
+
+.auth-box {
+  background: #111827;
+  padding: 30px;
+  border-radius: 12px;
+  width: 300px;
+  color: white;
+  text-align: center;
+}
+
+.auth-box input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 10px;
+  background: #6366f1;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.auth-links p {
+  margin-top: 10px;
+  cursor: pointer;
+  color: #38bdf8;
+}
+.admin-container {
+  padding: 20px;
+  color: white;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.user-card {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+.admin {
+  padding: 20px;
+  color: white;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.bar {
+  margin: 5px 0;
+  background: #1e293b;
+}
+
+.bar div {
+  background: #6366f1;
+  color: white;
+}
+.builder {
+  padding: 20px;
+  color: white;
+}
+
+input,
+textarea {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+}
